@@ -1,0 +1,25 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "API App should only be accessible over HTTPS",
+  "policyDefinitionId": "/providers/Microsoft.Management/managementGroups/precision/providers/Microsoft.Authorization/policyDefinitions/Deny-AppServiceApiApp-http",
+  "scope": "/providers/Microsoft.Management/managementGroups/precision",
+  "notScopes": [],
+  "parameters": {},
+  "metadata": {
+   "assignedBy": "val Manso",
+   "parameterScopes": {},
+   "createdBy": "f16b1c6e-87f0-4463-bd9a-016fe0f212ec",
+   "createdOn": "2022-07-06T16:14:56.3381229Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/precision/providers/Microsoft.Authorization/policyAssignments/6c5cb2286d3444b2bac6dd7e",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "6c5cb2286d3444b2bac6dd7e"
+}
